@@ -7,8 +7,9 @@ Vue CLIで作成したデフォルトプリセットをちょっといじった�
 
 現在のブランチリスト
 - master：最もシンプル。dataとマスタッシュ展開のみ
-- sample1/data_and_mastash dataとマスタッシュ展開2個
-- 
+- sample1/data_and_mastash：dataとマスタッシュ展開2個
+- sample2/v-model_and_data：v-modelによるデータバインドの使い方
+
 
 ## プロジェクトのセットアップ
 リポジトリをチェックアウトして
