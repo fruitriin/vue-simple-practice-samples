@@ -2,16 +2,17 @@
   <div id="app">
     <h1>{{ message }}</h1>
     <img alt="Vue logo" src="./assets/logo.png" />
+    数字もできるよ {{ count }}
   </div>
 </template>
 
 <script>
-
 export default {
-  data(){
+  data() {
     return {
-      message: "Hello Vue!"
-    }
+      message: "Hello Vue!",
+      count: 1
+    };
   }
 };
 </script>
