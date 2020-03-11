@@ -1,26 +1,22 @@
-# vue-simple-practice-sample
+# vueの入門者のためのシンプルなリポジトリ
 
-## Project setup
-```
-npm install
+## プロジェクトのセットアップ
+リポジトリをチェックアウトして
+```.bash
+#初回のみ
+npm install 
 ```
 
-### Compiles and hot-reloads for development
+### 開発するとき
 ```
+# なんかおかしくなったらCmd(Ctrl)+Cして止めてもう一回
 npm run serve
 ```
 
-### Compiles and minifies for production
+### プロダクションビルドするとき
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 ### ライセンス
 MIT
