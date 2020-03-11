@@ -9,6 +9,7 @@ Vue CLIで作成したデフォルトプリセットをちょっといじった�
 - master：最もシンプル。dataとマスタッシュ展開のみ
 - sample1/data_and_mastash：dataとマスタッシュ展開2個
 - sample2/v-model_and_data：v-modelによるデータバインドの使い方
+- sample3/methods_and_eventCall：メソッドの作成とイベント（クリック）からの呼び出し
 
 
 ## プロジェクトのセットアップ
