@@ -21,6 +21,12 @@ npm install
 ```
 # なんかおかしくなったらCmd(Ctrl)+Cして止めてもう一回
 npm run serve
+#   App running at:
+#  - Local:   http://localhost:8080/ 
+#  - Network: http://192.168.11.8:8080/
+# ↑みたいなメッセージが表示されるので、表示された Localのほうをブラウザで開く
+
+
 ```
 
 ### 最初に見るコード
