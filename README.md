@@ -6,7 +6,7 @@ Vue CLIで作成したデフォルトプリセットをちょっといじった�
 ブランチを切り替えることでいくつかのサンプルコードが入っているようにするつもりです。
 
 現在のブランチリスト
-- master：最もシンプル。dataとマスタッシュ展開のみ
+- master：現在最新のsample
 - sample1/data_and_mastash：dataとマスタッシュ展開2個
 - sample2/v-model_and_data：v-modelによるデータバインドの使い方
 - sample3/methods_and_eventCall：メソッドの作成とイベント（クリック）からの呼び出し
