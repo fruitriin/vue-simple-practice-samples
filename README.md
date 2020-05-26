@@ -10,6 +10,7 @@ Vue CLIで作成したデフォルトプリセットをちょっといじった�
 - sample1/data_and_mastash：dataとマスタッシュ展開2個
 - sample2/v-model_and_data：v-modelによるデータバインドの使い方
 - sample3/methods_and_eventCall：メソッドの作成とイベント（クリック）からの呼び出し
+- sample4/increment_counter：メソッドから変数の操作とメソッドに引数を使う
 
 
 ## プロジェクトのセットアップ
