@@ -11,6 +11,8 @@
     <button v-on:click="alert">アラートがでるボタン</button>
     <!-- v-on:イベント と @イベント は同じ（省略記法）-->
     <button @click="incrementCounter">(count)が増えるボタン</button>
+    <!-- 引数も指定可能 --->
+    <button @click="incrementsCounter(5)">(count)が5ずつ増えるボタン</button>
   </div>
 </template>
 
@@ -31,6 +33,9 @@ export default {
       // スクリプト内でdataを参照するには this. のあとに変数名
       this.count++
     },
+    // add だけ増加する
+    incrementsCounter(add){
+      this.count += add
     }
   }
 };
