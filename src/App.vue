@@ -10,7 +10,7 @@
     <!-- v-on:イベント でイベントを起こせる -->
     <button v-on:click="alert">アラートがでるボタン</button>
     <!-- v-on:イベント と @イベント は同じ（省略記法）-->
-    <button @click="alertMessage">(message)がアラートするボタン</button>
+    <button @click="incrementCounter">(count)が増えるボタン</button>
   </div>
 </template>
 
@@ -27,9 +27,10 @@ export default {
       // 呼び出されるとアラートがでます
       window.alert("ぴこーん！")
     },
-    alertMessage(){
+    incrementCounter(){
       // スクリプト内でdataを参照するには this. のあとに変数名
-      window.alert(this.message)
+      this.count++
+    },
     }
   }
 };
