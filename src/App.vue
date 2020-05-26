@@ -13,6 +13,7 @@
     <button @click="incrementCounter">(count)が増えるボタン</button>
     <!-- 引数も指定可能 --->
     <button @click="incrementsCounter(5)">(count)が5ずつ増えるボタン</button>
+    <button @click="incrementsCounter(count)">(count)が(count)ずつ増えるボタン（2倍になる）</button>
   </div>
 </template>
 
